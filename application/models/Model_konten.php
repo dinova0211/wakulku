@@ -100,6 +100,7 @@ class Model_konten extends CI_Model {
 		$this->db->where($where);
 		$this->db->delete($table);
 	}
+<<<<<<< HEAD
 	public function detail_konten($judul)
 	{
 		// return $this->db->get('konten')->result_array();
@@ -110,5 +111,7 @@ class Model_konten extends CI_Model {
 		
 		return $this->db->get()->row();
 	}
+=======
+>>>>>>> master
 }
 ?>

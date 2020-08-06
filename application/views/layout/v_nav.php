@@ -6,7 +6,19 @@
           <li class="drop-down"><a href="">Kategori</a>
             <ul>
               <li><a href="<?php echo site_url('kuliner/sejarah') ?>">Sejarah</a></li>
+<<<<<<< HEAD
              
+=======
+              <li class="drop-down"><a href="#">Deep Drop Down</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+>>>>>>> master
               <li><a href="<?php echo site_url('kuliner/resep_kuliner') ?>">Resep Kuliner</a></li>
               <li><a href="<?php echo site_url('kuliner/info_festival') ?>">Informasi & Festival</a></li>
               <li><a href="<?php echo site_url('kuliner/data_penjual') ?>">Data Penjual</a></li>

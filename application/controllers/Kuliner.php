@@ -7,6 +7,7 @@ class Kuliner extends CI_Controller {
 	{
 
 		parent::__construct();	
+<<<<<<< HEAD
 		 $this->load->model(array('model_konten'));
 	}
 	public function index()
@@ -14,6 +15,15 @@ class Kuliner extends CI_Controller {
 /*        $data['konten'] = $this->model_konten->get_event();
 		$data['destinasi'] = $this->model_konten->get_destinasi();
 		$data['penginapan'] = $this->model_konten->get_penginapan();*/
+=======
+		// $this->load->model(array('model_konten'));
+	}
+	public function index()
+	{
+        $data['konten'] = $this->model_konten->get_event();
+		$data['destinasi'] = $this->model_konten->get_destinasi();
+		$data['penginapan'] = $this->model_konten->get_penginapan();
+>>>>>>> master
 		// $data['konten'] = $this->model_konten->get_data_by_id($id);
 		// $this->load->view('layout/v_head');
         // $this->load->view('layout/v_header');
@@ -54,7 +64,11 @@ class Kuliner extends CI_Controller {
 		$this->load->view('v_info_festival',$data);
 	}
 
+<<<<<<< HEAD
 	public function data_penjual()
+=======
+	public function data_warung()
+>>>>>>> master
 	{
 		$data_konten['konten']= $this->model_konten->get_data();
 		$data['konten'] = $this->model_konten->get_data_warung();
@@ -73,6 +87,7 @@ class Kuliner extends CI_Controller {
 		$data['title'] = "Halaman Cerita Kuliner";
 		$this->load->view('v_cerita_kuliner',$data);
 	}
+<<<<<<< HEAD
 
 		public function detail_konten($judul)
 	{
@@ -86,4 +101,6 @@ class Kuliner extends CI_Controller {
 
 		
 	}
+=======
+>>>>>>> master
 }

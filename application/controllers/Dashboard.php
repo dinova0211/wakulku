@@ -161,8 +161,11 @@ class Dashboard extends CI_Controller {
 		}
 	}	
 
+<<<<<<< HEAD
 	
 
+=======
+>>>>>>> master
 	public function _rules()
 	{
 		$this->form_validation->set_rules('judul','Judul', 'required');
